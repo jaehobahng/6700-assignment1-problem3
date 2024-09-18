@@ -1,0 +1,25 @@
+email_project.alert
+===================
+
+.. py:module:: email_project.alert
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   email_project.alert.setup_args
+   email_project.alert.main
+
+
+Module Contents
+---------------
+
+.. py:function:: setup_args(parser)
+
+   So if I type this
+
+
+.. py:function:: main()
+

@@ -1,0 +1,22 @@
+email_project.mailer
+====================
+
+.. py:module:: email_project.mailer
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   email_project.mailer.send_email
+
+
+Module Contents
+---------------
+
+.. py:function:: send_email(sender, recipient, subject, body)
+
+   fdsafdsafdsa
+
+

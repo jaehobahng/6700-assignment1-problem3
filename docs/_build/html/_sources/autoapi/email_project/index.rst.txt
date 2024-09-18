@@ -1,0 +1,16 @@
+email_project
+=============
+
+.. py:module:: email_project
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/email_project/alert/index
+   /autoapi/email_project/mailer/index
+
+
