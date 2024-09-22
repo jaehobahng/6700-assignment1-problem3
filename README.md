@@ -1,7 +1,7 @@
 
 ---
 
-# 🚨📨 Emails Alerts 🚨📨
+# 🚨📨 Sending Emails 🚨📨
 
 This Python program allows the user to send emails to a recipient via SMTP protocals. Plain-text emails can be sent when the user provides the sender, recipient, subject, and body of the email. 
 
