@@ -14,7 +14,8 @@ Function setup_args()
 
 ---
 
-Function main()         
+Function main()  
+       
     Main function to send an email using the function  setup_args and send_email created in mailer.py.
 """
 
