@@ -9,7 +9,19 @@ from typing import Optional
 from email.message import EmailMessage
 
 def send_email(sender, recipient, subject, body):
-    '''fdsafdsafdsa'''
+    """
+    Send an email using the SMTP protocol.
+
+    Arguments:
+        sender - email address of the sender.
+        recipient - email address of the recipient.
+        subject - subject of the email.
+        body (optional) - body of the email.
+    
+    Returns:
+        None
+    """
+
     msg = MIMEMultipart("alternative")
     msg["From"] = sender
     msg["To"] = recipient
