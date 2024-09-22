@@ -8,11 +8,13 @@ This Python program allows the user to send emails to a recipient via SMTP proto
 ## Features
 
 📪 Sends plain text emails using the SMTP protocol.
+
 📪 Allows for easy use through command-line arguments.
 
 ## Requirements
 
 📬 Python 3.11
+
 📬 An SMTP server for email sending (such as Python’s built-in `smtpd`).
 
 ## Installation 
@@ -114,7 +116,9 @@ def send_email(sender, recipient, subject, body):
 ## Running the Script
 
 1️⃣ Open a terminal or command prompt.
+
 2️⃣ Ensure you have the necessary SMTP server running on `localhost:1025`.
+
 3️⃣ Run the script using the `python` command, providing the necessary command-line arguments for sender, recipient, subject, and body.
 
 ## Error Handling
