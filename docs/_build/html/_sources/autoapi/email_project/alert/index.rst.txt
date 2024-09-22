@@ -18,8 +18,5 @@ Module Contents
 
 .. py:function:: setup_args(parser)
 
-   So if I type this
-
-
 .. py:function:: main()
 
