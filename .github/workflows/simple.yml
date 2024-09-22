@@ -23,3 +23,23 @@ jobs:
 
     - name: Build documentation
       run: poetry run make html --directory docs/
+
+    # Add step to configure Git
+    - name: Configure Git
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+
+    - name: Add upstream remote
+      run: |
+        git remote add upstream https://${{ secrets.PAT_FOR_PRIVATE_REPO }}@github.com/jaehobahng/6700-assignment1-problem3.git
+
+    # Add step to commit changes
+    - name: Commit changes
+      run: |
+        git add docs/
+        git commit -m "Update documentation"
+
+    # Add step to push changes back to repository
+    - name: Push changes
+      run: git push origin main
